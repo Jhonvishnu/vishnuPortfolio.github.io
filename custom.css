@@ -1,0 +1,111 @@
+
+body{
+  background: rgb(128,128,138);
+background: linear-gradient(90deg, rgba(128,128,138,1) 0%, rgba(169,167,221,1) 11%, rgba(168,168,231,1) 35%, rgba(0,212,255,1) 100%);
+  font-family: "Open Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400 !important;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  transition: 0.2s all ease-in-out;
+}
+p, li {
+  font-size: 20px;
+}
+.pages {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.card img{
+    border-radius: 20px;
+    margin: 0px auto;
+    position: relative;
+    top: -60px;
+    background: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+ 
+  .nav i {
+    font-size: 3rem; /* Adjust the font size as needed */
+    margin: auto;
+    padding: 0 30px; /* Adjust padding as needed */
+}
+
+.nav-list {
+    border-radius: 20px;
+    width: 100%; /* Full width of the container */
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    border: 1px solid aqua;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.2rem !important; /* Adjust font size as needed */
+    font-weight: bold !important;
+    color: #000 !important;
+}
+
+.nav-item:hover, .nav-item:focus, .nav-item.active{
+  background: linear-gradient(to right bottom, #1680e4a6, #5a2adf94, #db90f0);
+  border: blue;
+  box-shadow: 5px 6px 10px #449be8;
+}
+
+.nav-link:hover, .nav-link:focus{
+  color: #fff !important;
+}
+
+.Profile-card .card {
+  padding: 30px;
+}
+.Profile-card .card i{
+  font-size: xx-large;
+  padding: 0px 20px;
+}
+.Profile-card .card li{
+  list-style:none;
+}
+
+li.loc_title {
+  font-size: larger;
+  font-weight: bold;
+}
+span#proffesional {
+  font-size: -webkit-xxx-large;
+}
+.social_media i{
+  font-size: xx-large;
+  padding:0px 10px;
+  cursor: pointer;
+}
+img.logo_codepen{top: 0; background: transparent; border: none;
+  margin-bottom: 10px;
+}
+.bi-instagram{color: #D84653;}
+.bi-github{color: #000;}
+.bg-custom{background: linear-gradient(to right, #55a0eaa6, #4db2bd94);}
+.card.Profile-card {
+  background: linear-gradient(to bottom right, #72ade800, #6fc8d08f);
+}
+.card-text {text-align: left; line-height: 2;}
+.myResume {text-decoration: none;}
+.myResume button{display: inline-block; width: fit-content; border-radius: 15px; float: right; padding: 5px 10px; background-color: #449be8; color: rgba(79, 79, 243, 0.993);
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif !important;
+  transition: all 0.5s linear;
+}
+.myResume button:hover{
+  color: #fff;
+  transform: scale(1.2);
+}
