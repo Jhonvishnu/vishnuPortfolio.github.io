@@ -81,8 +81,10 @@ li.loc_title {
   font-size: larger;
   font-weight: bold;
 }
-span#proffesional {
-  font-size: -webkit-xxx-large;
+span#professional {
+    font-size: larger;
+    font-weight: 600;
+    font-family: math;
 }
 .social_media i{
   font-size: xx-large;
