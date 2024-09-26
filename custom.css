@@ -112,3 +112,29 @@ img.logo_codepen{top: 0; background: transparent; border: none;
   color: #fff;
   transform: scale(1.2) translateY(-10px);
 }
+@media screen and (max-width: 1200px) {
+  div, span, ul, li, p {
+      font-size: small !important;
+      padding-left: 2px;
+  }
+.card{
+  margin: 5px 0px !important;
+  padding: 0px 5px !important;
+}
+.nav i, .nav-link{
+  font-size: larger !important;;
+}
+.nav-item{
+  padding: 3px;
+  margin: 2px;
+}
+.nav-list.d-flex.justify-content-around {
+overflow: auto;
+scroll-behavior: smooth;
+scrollbar-width: none;
+}
+div#contact-me, header h3 {display:none;}
+.Profile-card > img {top: -30px}
+.card {height: max-content !important;}
+
+}
